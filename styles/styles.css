@@ -7,17 +7,19 @@ font-family: "Azeret Mono", monospace;
 }
 /* header{
     margin: 0 auto; }*/
+ html {
+        scroll-behavior: smooth;
+    }
 
 .no-use{
-    margin-left: 10px;
-    margin-right: 10px;
-    border: solid 2px;
+
     display: flex;
     justify-content:space-between;
     align-items: center; 
     padding: 10px;
     max-width: 1400px;
     margin-bottom: 0px;
+    margin: 0 auto;
     
 }
 .no-use p{
@@ -39,9 +41,7 @@ text-align: left;
     margin-top: 0px;
     max-width: 1440px;
     max-height: 652px;
-    border: solid 2px;
     background-image: url(../assets/Hero-bg.png);
-   
     width: 1440px;
     height: 652px;
     left: 0;
@@ -51,7 +51,8 @@ text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
+    margin: 0 auto;
 }
 .title-1{
   color: rgb(13, 19, 33);
@@ -90,7 +91,7 @@ padding: 20px;
         margin: 0 auto;
         max-width: 1140px;
         border-radius: 16px;
-        border: solid 2px;
+        /* border: solid 2px; */
         background: rgba(13, 19, 33, 0.02);
         margin-bottom: 70px;
         
@@ -121,7 +122,7 @@ text-align: center;
 .subsection-1{
     max-width: 946px;
     max-height: 336px;
-    border: solid 2px;
+    /* border: solid 2px; */
     margin: 0 auto;
     padding: 48px;
     display: flex;
@@ -153,11 +154,11 @@ box-sizing: border-box;
 width: 150px;
 height: 48px;
 border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
+opacity: 0.7; 
 text-align: center;
 }
 .third{
-    border :solid 2px;
+    /* border :solid 2px; */
     max-width: 1140px;
     margin :0 auto;
     display: flex;
@@ -194,7 +195,7 @@ text-align: center;
     border-radius: 2px;
 }
 .forth{
-    border :solid 2px;
+    /* border :solid 2px; */
     max-width: 1140px;
     margin :0 auto;
     display: flex;
@@ -261,4 +262,98 @@ text-align: left;
 .block-3-bg{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+.footer-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    background: rgba(12, 12, 12, 0.8);
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.footer-1 h4{
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-1 p{
+/* position: static;
+/* width: 730px;
+height: 104px; */ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0 auto;
+
+}
+.footer-1{
+    max-width: 783px;
+    margin: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.footer-2 input{
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+position: static;
+width: 548px;
+height: 57px;
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-2 button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    position: static;
+    width: 120px;
+    height: 57px;
+}
+.last{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
 }
